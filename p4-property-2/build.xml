@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="property-file-ant" default="displayProperties">
+
+    <property file="build.properties"/>
+
+    <target name="displayProperties">
+        <echo message="Value of property bar is ${bar}"/>
+        <echo message="Value of property world is ${world}"/>
+        <echo message="Ant project name property value is ${ant.project.name}"/>
+    </target>
+</project>

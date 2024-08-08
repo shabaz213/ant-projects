@@ -1,0 +1,1 @@
+We can declare properties to be used by targets and tasks inside the XML.
